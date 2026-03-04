@@ -2,9 +2,9 @@
 
 1. Tout d'abord avoir un compte Github.
 2. Ensuite créer un fork de ce repository en gardant l'appelant "nom_de_votre_organisation.github.io" par exemple pour ceres-sorbonne -> ceres-sorbonne.github.io .
-3. Aller dans les paramètres du repo, choisissez "Pages" dans le menu de gauche, puis dans Build and Deployments sur le champ source choississez "Deploy from a Branch" 
+3. Aller dans les paramètres du repo, choisissez "Pages" dans le menu de gauche, puis dans Build and Deployments sur le champ source choississez "Github Actions" 
 4. Le cloner, changer les fichiers csv et les photos dans scripts/inputs pour correspondre à votre site.
-5. Lancer la commande python init_from_csv.py
+5. Dans le dossier script, lancer la commande `python init_files_from_csv.py`
 6. Dans /scripts/resources changer les fichiers désirés:
   a. LogoLabo.png pour le logo qui s'affichera en haut
   b. avatar.webp pour les images par défaut des membres
